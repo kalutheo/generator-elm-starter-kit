@@ -11,6 +11,9 @@
   "dependencies": {
     "yeoman-generator": "^1.1.1"
   },
+  "devDependencies": {
+    "deep-extend": ">=0.5.1"
+  },
   "author": "",
   "license": "ISC"
 }
