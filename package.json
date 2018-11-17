@@ -1,12 +1,14 @@
 {
   "name": "generator-elm-starter-kit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Generate a simple Elm Spa",
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "elm",
+    "starter-kit"
   ],
   "dependencies": {
     "yeoman-generator": "^1.1.1"
