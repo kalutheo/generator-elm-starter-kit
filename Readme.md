@@ -17,3 +17,5 @@ npm install -g yo
 npm install -g generator-elm-starter-kit
 yo elm-starter-kit
 ```
+
+![yo](docs/yo-elm.gif)
