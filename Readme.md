@@ -19,3 +19,5 @@ yo elm-starter-kit
 ```
 
 ![yo](docs/yo-elm.gif)
+
+Then visit http://localhost:8000 and start coding :-)
