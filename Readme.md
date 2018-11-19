@@ -4,7 +4,7 @@ This library is a [yeoman](http://yeoman.io/) generator that helps you easily st
 
 By default, it generates a [Browser.application](https://package.elm-lang.org/packages/elm/browser/latest/Browser#application) which is perfect for building an [spa](https://en.wikipedia.org/wiki/Single-page_application).
 
-This generator can prodive more templates for starting other kind of programs :
+This generator can prodive more templates for starting other kind of programs:
 
 - [Browser.sandbox](https://package.elm-lang.org/packages/elm/browser/latest/Browser#sandbox)
 - [Browser.element](https://package.elm-lang.org/packages/elm/browser/latest/Browser#element)
