@@ -11,17 +11,28 @@ module.exports = class extends Generator {
         name: "name",
         message: "Your project name",
         default: this.appname // Default to current folder name
+      },
+      {
+        type: "list",
+        name: "type",
+        choices: ["sandbox", "element", "document", "application"],
+        message: "The type of application",
+        default: "application"
       }
     ]);
   }
 
   writing() {
+    const directory = this.answers.type;
     this.fs.copyTpl(
-      this.templatePath("_elm.json"),
+      this.templatePath(`${directory}/_elm.json`),
       this.destinationPath("elm.json"),
       { name: this.answers.name }
     );
 
-    this.fs.copy(this.templatePath("src"), this.destinationPath("src"));
+    this.fs.copy(
+      this.templatePath(`${directory}/src`),
+      this.destinationPath("src")
+    );
   }
 };
